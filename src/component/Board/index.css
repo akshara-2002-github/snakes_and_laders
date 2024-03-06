@@ -1,0 +1,33 @@
+.board {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.board__row {
+  display: flex;
+  flex-direction: row;
+}
+.board__row--reversed {
+  flex-direction: row-reverse;
+  
+}
+
+.board__col {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board__col--border-bottom{
+    border-bottom: 1px solid black;
+
+
+}
+.board__col--border-left {
+  border-left:1px solid black;
+}
