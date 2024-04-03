@@ -1,6 +1,21 @@
+.background{
+  padding: 15px;
+  /* background-color:#294B29; */
+  
+ /* background-color: #EBC49F; */
+
+ background: repeating-linear-gradient( -45deg, black
+ , black 19px, black 19px, black 95px );
+
+
+}
+
 .board {
   display: flex;
   flex-direction: column-reverse;
+ background-color: white;
+ opacity: 0.9;
+
 }
 
 .board__row {
@@ -13,21 +28,26 @@
 }
 
 .board__col {
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
+  height: 70px;
+  width: 90px;
+  color:#122F0B;
+  border: 3px solid #122F0B;
   border-bottom: 1px solid transparent;
   border-left: 1px solid transparent;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 3px;
 }
 .board__col--border-bottom{
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #122F0B;
 
 
 }
 .board__col--border-left {
-  border-left:1px solid black;
+  border-left:3px solid #122F0B;
+}
+.board__col--player {
+  background-color: aqua;
 }

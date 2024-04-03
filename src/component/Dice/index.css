@@ -1,0 +1,12 @@
+.dice{
+    width: 100px;
+    height: 100px;
+    background-image: url('../../assets/dice-6-svgrepo-com.svg');
+}
+
+.button_dice{
+   margin-top: 20px;
+    width: 125px;
+    height: 125px;
+
+}

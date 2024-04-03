@@ -1,8 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: auto;
+  height: auto;
+ 
+  padding: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #663c0c;
+  opacity: 0.8;
+  background-image:  repeating-linear-gradient(45deg, #663c0c 25%, transparent 25%, transparent 75%, #cf8734 75%, #cf8734), repeating-linear-gradient(45deg, #cf8734 25%, #d58c38 25%, #d58c38 75%, #cf8734 75%, #cf8734);
+  background-position: 0 0, 38px 38px;
+  background-size: 76px 76px;
+
+  
 }
 
 .logo {
