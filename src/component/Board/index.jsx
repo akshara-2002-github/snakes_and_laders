@@ -38,7 +38,7 @@ const Board = ({ numOfRows = 5, numOfCols = 5, diceValue, setDice }) => {
       }
       return {
         row: newRow,
-        col: diceValue - (numOfCols - prevState.col - 1) + 1,
+        col: diceValue - (newCol - prevState.col)-1
       };
     });
     console.log(diceValue);
