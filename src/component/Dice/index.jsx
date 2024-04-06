@@ -5,7 +5,7 @@ export default function Dice(props) {
   return (
     <div>
       <button onClick={props.onClick} className='button_dice'> 
-        <img className='dice'/>
+       {props.diceValue}
       </button>
     </div>
   )

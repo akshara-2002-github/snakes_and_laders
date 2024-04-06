@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Board diceValue={dice} setDice={setDice} />
-      <Dice  onClick={onDiceClick} />
+      <Dice  onClick={onDiceClick} diceValue={dice} />
     </div>
   );
 }
